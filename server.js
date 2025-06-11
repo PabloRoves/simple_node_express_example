@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Hello World x9!')
+  res.send('Hello World x10 y reinicio de servidor automático!')
 })
 
 app.listen(port, () => {

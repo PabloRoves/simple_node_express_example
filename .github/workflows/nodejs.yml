@@ -31,4 +31,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /var/www/simple_node_express_example
-          sudo npm start
+          sudo pm2 restart server
