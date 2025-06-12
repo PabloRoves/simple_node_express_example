@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Probando configuración de SSH')
+  res.send('Probando ahora con el SSH bloqueado')
 })
 
 app.listen(port, () => {
